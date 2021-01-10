@@ -16,8 +16,8 @@
 #TabsToolbar .tabbrowser-tab .tab-stack,
 #TabsToolbar .tabbrowser-tab .tab-background,
 #TabsToolbar .tabbrowser-tab .tab-content {
-  border-top-left-radius: 10px !important;
-  border-top-right-radius: 10px !important;
+  //border-top-left-radius: 1px !important;
+  //border-top-right-radius: 1px !important;
   margin-top: 0px;
   height: 36px;
   text-align: center;
