@@ -1,23 +1,15 @@
 @namespace url('http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul');
 
 #PersonalToolbar {
-    transition: margin 280ms linear !important;
-    position: relative !important;
-    visibility: hidden;
-    z-index: 0 !important;
-    margin-top: -32px !important;
-    -moz-window-dragging: no-drag !important;
+  transition: visibility, ease 0.5s, margin-top, ease 0.5s, opacity, ease 0.5s,
+    rotate, ease 0.4s !important;
+  opacity: 0;
 }
 
-#nav-bar {
-    z-index: 1 !important;
-}
-
-#nav-bar:hover+#PersonalToolbar,
+#navigator-toolbox:hover > #PersonalToolbar,
+#nav-bar:hover + #PersonalToolbar,
 #PersonalToolbar:hover {
-    margin-top: 0px !important;
-    visibility: visible;
-    //margin-bottom: 24px !important;
+  opacity: 1;
 }
 
 * {
@@ -464,7 +456,7 @@ tree,
 
 #nav-bar:not([customizing]) {
   visibility: visible;
-  margin-top: -40px;
+  margin-top: -72px;
   transition-delay: 1s;
   filter: alpha(opacity=0);
   opacity: 0;
@@ -474,6 +466,7 @@ tree,
 
 :root:not([customizing]) :hover > #nav-bar,
 #nav-bar:focus-within,
+#nav-bar:focus-within + #PersonalToolbar,
 #urlbar[focused='true'],
 #identity-box[open='true'],
 #navigator-toolbox:hover > #nav-bar:not([customizing]),
