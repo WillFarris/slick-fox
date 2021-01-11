@@ -1,7 +1,7 @@
 <h1 align="center">Slick-Fox</h1>
 
 <h2 align="center">A modern theme for Firefox uses slick animations </h2>
-<p align="center">Forked from <a href="https://github.com/Etesam913/slick-fox"></p1>
+<p align="center">Forked from <a href="https://github.com/Etesam913/slick-fox">https://github.com/Etesam913/slick-fox</a></p1>
 
 ### Steps for applying this configuration
 <ol>
