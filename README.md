@@ -1,13 +1,7 @@
 <h1 align="center">Slick-Fox</h1>
 
 <h2 align="center">A modern theme for Firefox uses slick animations </h2>
-<p align="center"><img src="https://res.cloudinary.com/dz5ashos1/image/upload/v1598324310/github/slick-fox/gq6lvjd6zaylbzqounzl.gif"></img></p1>
-
-<h4 align='center'>Transparent Clean Context Menus</h4>
-<p align="center"><img width='250px' src="https://res.cloudinary.com/dz5ashos1/image/upload/v1600668896/github/slick-fox/deimsyjumzrnfqtl5uye.png"></img></p1>
-
-<h4 align='center'>Beautiful Tab Tooltips</h4>
-<p align="center"><img width='250px' src="https://res.cloudinary.com/dz5ashos1/image/upload/v1600669087/github/slick-fox/oe9ak1bhemrd4kb1jsqb.png"></img></p1>
+<p align="center">Forked from <a href="https://github.com/Etesam913/slick-fox"></p1>
 
 ### Steps for applying this configuration
 <ol>
